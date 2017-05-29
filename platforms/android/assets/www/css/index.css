@@ -1,0 +1,270 @@
+body, html{
+    height: 100%;
+    padding: 0;
+
+    margin: 0;
+}
+.app{
+    width: 100%;
+}
+h2{
+    font-size: 22px;
+    color: white;
+    font-family: "Adobe Garamond Pro Bold";
+    text-align: center;
+    font-weight: 2000px;
+}
+#knop1 h2{
+    position: absolute;
+    top:6vh;
+    left: 10vw;
+}
+#knop2 h2{
+    position: absolute;
+    top:6vh;
+    right: 10vw;
+}
+#knop3 h2{
+    position: absolute;
+    bottom:6vh;
+    left: 4vw;
+}
+#knop4 h2{
+    position: absolute;
+    bottom:6vh;
+    right: 10vw;
+}
+#knop1{
+    width: 49vw;
+    background-color: #55c3e6;
+    float: left;
+    height: 49.3vh;
+    border-bottom: 0.7vh solid #d5b757;
+    border-right: 2vw solid #d5b757;
+}
+#knop1:hover{
+    background-color: #9fe2f7;
+}
+#knop2{
+    width: 49vw;
+    background-color: #55c3e6;
+    float: left;
+    height: 49.3vh;
+    border-bottom: 0.7vh solid #d5b757;
+
+}
+#knop2:hover{
+    background-color: #9fe2f7;
+}
+#knop3{
+    width: 49vw;
+    background-color: #55c3e6;
+    float: left;
+    height: 49.3vh;
+    border-top: 0.7vh solid #d5b757;
+
+}
+#knop3:hover{
+    background-color: #9fe2f7;
+}
+#knop4{
+    width: 49vw;
+    background-color: #55c3e6;
+    float: left;
+    height: 49.3vh;
+    border-top: 0.7vh solid #d5b757;
+    border-left: 2vw solid #d5b757;
+}
+#knop4:hover{
+    background-color: #9fe2f7;
+}
+#logo{
+
+    width: 70%;
+    height: 45%;
+    position: absolute;
+    left:14vw;
+    top: 30vh;
+    border-radius: 100%;
+
+
+}
+#logo2{
+
+    width: 80%;
+    height: 45%;
+    position: absolute;
+    left:14vw;
+    top: 25vh;
+
+
+}
+.img img{
+    width: 100vw;
+
+}
+#text2{
+    width: 100vw;
+    height: 60vh;
+    text-align: center;
+    background-color: #9fe2f7;
+}
+#text2{
+    padding-top:50vh;
+    color: white;
+}
+#6maanden{
+    display: none;
+    font-size: 50px;
+}
+.img2 img{
+    width: 100vw;
+    height: 90vh;
+
+}
+.text{
+    padding-top: 0;
+    margin-top: -1vh;
+    background-color: black;
+    width: 90vw;
+    height: 15vh;
+    color: white;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.menu{
+
+    background-color:#55c3e6;
+    width: 100vw;
+    height: 10vh;
+}
+.pijl{
+    width: 12vw;
+    position: absolute;
+    top: 1.5vh;
+    left: 2vw;
+}
+.menu p{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 20vw;
+    top: -2vh;
+}
+#terugKnop{
+    display: none;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    margin-left: 10px;
+    padding-top: -10px;
+    overflow: hidden;
+    border-bottom: 15px solid rgba(255,255,255,0.05);
+    margin-bottom: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    border-radius: 200px;
+}
+#terugKnop:hover{
+    background-color: #55c3e6;
+    border-color: #55c3e6;
+    color: white;
+    transition: .7s;
+}
+#pic1{
+    margin-top: 25vh;
+    margin-left: 20vw;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+ }
+#pic2{
+    margin-top: 25vh;
+    margin-left: 40vw;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+#pic3{
+    margin-top: 25vh;
+    margin-left: 60vw;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+/*model*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.modal-content {
+
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 30px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+/* The Close Button */
+.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+/* The Close Button */
+.close3 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close2:hover,
+.close2:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3:hover,
+.close3:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
